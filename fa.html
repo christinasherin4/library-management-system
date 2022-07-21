@@ -1,0 +1,208 @@
+<html>
+    <head>
+        <title>Ex4</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="Ex4.css" rel="stylesheet">
+    </head>
+    <body>   
+        <ul class="navbar">
+            <li><a href="https://www.yonsei.ac.kr/en_sc/intro/greeting_2016.jsp" target="_blank"> About Us</a></li>
+            <li><a href="https://www.yonsei.ac.kr/en_sc/research/research.jsp" target="_blank"> Research</a></li>
+            <li><a href="https://www.yonsei.ac.kr/en_sc/admission/undergraduate.jsp" target="_blank"> Admission</a></li>
+            <li><a href="https://www.yonsei.ac.kr/en_sc/admission/dep.jsp" target="_blank"> Academics</a></li>
+            <li><a href="https://www.yonsei.ac.kr/en_sc/support/notice.jsp" target="_blank"> Campus Life</a></li>
+        </ul>
+        <div class="banner1">
+            <div class="head">
+                <h1 align="center"> YONSEI UNIVERSITY (延世大學校) </h1>
+            </div>
+            <div class="signin">
+                <form action="https://www.yonsei.ac.kr/en_sc/index.jsp" target="_blank" methods="post">
+         
+   <h1>Sign in</h1>
+                    <Label>UserName</Label>
+                    <input type="text" Placeholder="Enter your username">
+                    <label>Password</label>
+                    <input type="Password" Placeholder="Enter Your Password">
+                    <input type="submit" value="Sign In">
+                </form>
+            </div> 
+        </div>
+        <div class="banner2">
+            <div class="signup">
+                <form action="https://www.yonsei.ac.kr/en_sc/index.jsp" target="_blank" methods="post">
+                    <h1>Sign Up</h1>
+                    <Label>Name</Label>
+                    <input type="text" Placeholder="Enter your Name">
+                    <Label>UserName</Label>
+                    <input type="text" Placeholder="Enter your username">
+                    <label>Password</label>
+                    <input type="Password" Placeholder="Enter Your Password">
+                    <input type="submit" value="Sign Up">
+                </form>
+            </div> 
+        </div>
+    </body>
+</html>
+
+
+
+
+
+<style>
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.navbar{
+    list-style-type: none;
+    width:100%;
+    height:50px;
+    background-color: darkblue;
+    position: fixed; 
+}
+.navbar li{
+    float: left;
+    width:20%;
+    text-align: center;
+}
+.navbar a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    line-height: 49px;
+    font-size: 20 px;
+    font-weight: 900;
+}
+.navbar a:hover{
+    background-color : black;
+    color: white;
+    font-weight: bold;
+}
+.banner1{
+    height: 650px;
+    background-image: url('ss.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    top:50px;
+}
+.head h1{
+    color:darkblue;
+    padding:50px;
+    top:100px;
+}
+.signin{
+    width:500px;
+    height:350px;
+    background-color: white;
+    position:absolute;
+    top:150px;
+    left:450px;
+    padding:20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 20px black;
+}
+.signin h1{
+    text-align: center;
+    font-family: monospace;
+    margin-bottom: 10px;
+}
+label,input{
+    display:block;
+    margin-bottom:10px;
+    width:100%;
+    font-size: 20px;
+    color:blue;
+}
+input{
+    padding: 10px;
+}
+input[type='text'],input[type='password']{
+    border:none;
+    outline:none;
+    background-color: lightgray;
+    border-radius: 8px;
+}
+input[type='text']:focus,input[type='password']:focus{
+    background-color: white;
+    border: 1px solid darkblue;
+    outline: 1px solid darkblue;
+    box-shadow: 5px 5px 20px black;
+}
+input[type='submit']{
+    border-radius: 8px;
+    border:none;
+    background-color: darkblue;
+    color: white;
+    width:40%;
+    margin: auto;
+    margin-top:40px;}
+
+input[type='submit']:hover{
+    background-color: darkkhaki;
+    color:white;
+}
+.banner2{
+    height: 750px;
+    background-image: url('ss.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.signup{
+    width:500px;
+    height:420px;
+    background-color: white;
+    position:absolute;
+    top:850px;
+    left:450px;
+    padding:20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 20px black;
+}
+.signup h1{
+    text-align: center;
+    font-family: monospace;
+    margin-bottom: 10px;
+}
+label,input{
+    display:block;
+    margin-bottom:10px;
+    width:100%;
+    font-size: 20px;
+    color:blue;
+}
+input{
+    padding: 10px;
+}
+input[type='text'],input[type='password']{
+    border:none;
+    outline:none;
+    background-color: lightgray;
+    border-radius: 8px;
+}
+input[type='text']:focus,input[type='password']:focus{
+    background-color: white;
+    border: 1px solid darkblue;
+    outline: 1px solid darkblue;
+    box-shadow: 5px 5px 20px black;
+}
+input[type='submit']{
+  
+    border-radius: 8px;
+    border:none;
+    background-color: darkblue;
+    color: white;
+    width:40%;
+    margin: auto;
+    margin-top:40px;
+}
+input[type='submit']:hover{
+    background-color: darkkhaki;
+    color:white;}
+
+</style>
